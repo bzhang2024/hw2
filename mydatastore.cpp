@@ -2,6 +2,8 @@
 #include <string>
 #include <functional> 
 #include <algorithm>
+#include <set>
+#include <vector>
 
 #include "mydatastore.h"
 #include "datastore.h"
