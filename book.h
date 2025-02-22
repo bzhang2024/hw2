@@ -11,7 +11,7 @@ class Book : public Product {
         std::set<std::string> keywords() const;
         std::string displayString() const; 
         bool isMatch(std::vector<std::string>& searchTerms) const;
-        std::string displayString() const; 
+       
 
 
         std::string getISBN() const; 

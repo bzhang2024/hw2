@@ -1,4 +1,5 @@
 #include "mydatastore.h"
+#include "datastore.h"
 
 using namespace std; 
 
@@ -91,7 +92,7 @@ void MyDataStore::addToCart(string username, Product* product){
     
 }
 
-vector<Product*> MyDataStore::viewCart(string username){
+void MyDataStore::viewCart(string username){
     //find user
     vector<User*>::iterator it;
     User* user;

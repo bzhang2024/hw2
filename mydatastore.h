@@ -15,7 +15,7 @@ class MyDataStore : public DataStore {
         void dump(std::ostream& ofile);
 
         void addToCart(std::string username, Product* product);
-        std::vector<Product*> viewCart(std::string username);
+        void viewCart(std::string username);
         void buyCart(std::string username); 
 
         bool isUserValid(std::string username);

@@ -11,7 +11,7 @@ class Clothing : public Product {
         std::set<std::string> keywords() const; //already inherited?
         std::string displayString() const; 
         bool isMatch(std::vector<std::string>& searchTerms) const;
-        std::string displayString() const; 
+        
 
         std::string getSize() const;
         std::string getBrand() const;
