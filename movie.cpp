@@ -1,4 +1,5 @@
 #include "movie.h"
+#include "product.h"
 
 using namespace std;
 
