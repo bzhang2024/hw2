@@ -3,7 +3,7 @@
 
 using namespace std; 
 
-Book::Book(const string category, const string name, double price, int qty, const string isbn, const string author) :
+Book::Book(const string category, const string name, double price, int qty, string isbn, string author) :
     Product(category, name, price, qty), isbn(isbn), author(author)
 {
 

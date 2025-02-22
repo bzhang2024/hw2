@@ -3,7 +3,7 @@
 
 using namespace std;
 
-Movie::Movie(const string category, const string name, double price, int qty, const string genre, const string rating) :
+Movie::Movie(const string category, const string name, double price, int qty, string genre, string rating) :
     Product(category, name, price, qty), genre(genre), rating(rating)
 {
 
