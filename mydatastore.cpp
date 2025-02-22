@@ -1,5 +1,15 @@
+#include <iostream>
+#include <string>
+#include <functional> 
+#include <algorithm>
+
 #include "mydatastore.h"
 #include "datastore.h"
+#include "product.h"
+#include "book.h"
+#include "clothing.h"
+#include "movie.h"
+#include "util.h"
 
 using namespace std; 
 
